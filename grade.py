@@ -1,6 +1,6 @@
 q1 = float(input("Enter the tentative grade for Q1: "))
 q2 = float(input("Enter the tentative grade for Q2: "))
-q3 = float(input("Enter the tentative grade for Q3: "))
+q3 = float(input("Enter the tentattive grade for Q3: "))
 q4 = float(input("Enter the tentative grade for Q4: "))
 
 Q1 = q1
