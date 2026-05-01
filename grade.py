@@ -22,6 +22,7 @@ elif 49.99 >= a >= 40:
     print("Equivalent Assessment Score: 4.00")
 elif 39.99 >= a:
     print("Equivalent Assessment Score: 5.00")
+    
 q1 = float(input("Enter the tentative grade for Q1: "))
 q2 = float(input("Enter the tentative grade for Q2: "))
 q3 = float(input("Enter the tentative grade for Q3: "))
