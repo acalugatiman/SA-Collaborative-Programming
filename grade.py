@@ -169,27 +169,3 @@ elif 49.99 >= a_q4 >= 40:
 elif 39.99 >= a_q4:
     print("Equivalent Q4 Assessment Score: 5.00")
 
-q4 = float(input("Enter the tentative grade for Q4: "))
-final_grade = (Q3 + (2 * q4)) / 3 
-if 1.00 <= final_grade <= 1.125:
-    print("Final Grade: 1.00, EXCELLENT") 
-elif 1.126 < final_grade <= 1.375:
-    print("Final Grade: 1.25, VERY GOOD")
-elif 1.376 < final_grade <= 1.625:
-    print("Final Grade: 1.50, VERY GOOD")
-elif 1.626 < final_grade <= 1.875:
-    print("Final Grade: 1.75, GOOD")
-elif 1.876 < final_grade <= 2.125:
-    print("Final Grade: 2.00, GOOD")
-elif 2.126 < final_grade <= 2.375:
-    print("Final Grade: 2.25, SATISFACTORY")
-elif 2.376 < final_grade <= 2.625:
-    print("Final Grade: 2.50, SATISFACTORY")
-elif 2.626 < final_grade <= 2.875:
-    print("Final Grade: 2.75, FAIR")
-elif 2.876 < final_grade <= 3.00:
-    print("Final Grade: 3.00, FAIR")
-elif 3.01 < final_grade <= 4.00:
-    print("Final Grade: 4.00, FAILED ON CONDITION")
-elif 4.01 < final_grade <= 5.00:
-    print("Final Grade: 5.00, FAILED")
