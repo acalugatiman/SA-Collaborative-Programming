@@ -1,4 +1,4 @@
-a = float(input("Enter your assessment score: ")) 
+ a = float(input("Enter your assessment score: ")) 
 if 100 >= a >= 96:
     print("Equivalent Score: 1.00")
 elif 95.99 >= a >= 90:
