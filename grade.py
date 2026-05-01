@@ -1,26 +1,26 @@
 a = float(input("Enter your assessment score: ")) 
 if 100 >= a >= 96:
-    print("Equivalent Assessment Score: 1.00")
+    print("Equivalent Score: 1.00")
 elif 95.99 >= a >= 90:
-    print("Equivalent Assessment Score: 1.25")
+    print("Equivalent Score: 1.25")
 elif 89.99 >= a >= 84:
-    print("Equivalent Assessment Score: 1.50")
+    print("Equivalent Score: 1.50")
 elif 83.99 >= a >= 78:
-    print("Equivalent Assessment Score: 1.75")
+    print("Equivalent Score: 1.75")
 elif 77.99 >= a >= 72:
-    print("Equivalent Assessment Score: 2.00")
+    print("Equivalent Score: 2.00")
 elif 71.99 >= a >= 66:
-    print("Equivalent Assessment Score: 2.25")
+    print("Equivalent Score: 2.25")
 elif 65.99 >= a >= 60:
-    print("Equivalent Assessment Score: 2.50")
+    print("Equivalent Score: 2.50")
 elif 59.99 >= a >= 55:
-    print("Equivalent Assessment Score: 2.75")
+    print("Equivalent Score: 2.75")
 elif 54.99 >= a >= 50:
-    print("Equivalent Assessment Score: 3.00")
+    print("Equivalent Score: 3.00")
 elif 49.99 >= a >= 40:
-    print("Equivalent Assessment Score: 4.00")
+    print("Equivalent Score: 4.00")
 elif 39.99 >= a:
-    print("Equivalent Assessment Score: 5.00")
+    print("Equivalent Score: 5.00")
     
 q1 = float(input("Enter the tentative grade for Q1: "))
 Q1 = q1
@@ -49,27 +49,27 @@ elif 4.01 < q1 <= 5.00:
 
 a_q2 = float(input("Enter your Q2 assessment score: "))
 if 100 >= a_q2 >= 96:
-    print("Equivalent Q2 Assessment Score: 1.00")
+    print("Equivalent Q2 Score: 1.00")
 elif 95.99 >= a_q2 >= 90:
-    print("Equivalent Q2 Assessment Score: 1.25")
+    print("Equivalent Q2 Score: 1.25")
 elif 89.99 >= a_q2 >= 84:
-    print("Equivalent Q2 Assessment Score: 1.50")
+    print("Equivalent Q2 Score: 1.50")
 elif 83.99 >= a_q2 >= 78:
-    print("Equivalent Q2 Assessment Score: 1.75")
+    print("Equivalent Q2 Score: 1.75")
 elif 77.99 >= a_q2 >= 72:
-    print("Equivalent Q2 Assessment Score: 2.00")
+    print("Equivalent Q2 Score: 2.00")
 elif 71.99 >= a_q2 >= 66:
-    print("Equivalent Q2 Assessment Score: 2.25")
+    print("Equivalent Q2 Score: 2.25")
 elif 65.99 >= a_q2 >= 60:
-    print("Equivalent Q2 Assessment Score: 2.50")
+    print("Equivalent Q2 Score: 2.50")
 elif 59.99 >= a_q2 >= 55:
-    print("Equivalent Q2 Assessment Score: 2.75")
+    print("Equivalent Q2 Score: 2.75")
 elif 54.99 >= a_q2 >= 50:
-    print("Equivalent Q2 Assessment Score: 3.00")
+    print("Equivalent Q2 Score: 3.00")
 elif 49.99 >= a_q2 >= 40:
-    print("Equivalent Q2 Assessment Score: 4.00")
+    print("Equivalent Q2 Score: 4.00")
 elif 39.99 >= a_q2:
-    print("Equivalent Q2 Assessment Score: 5.00")
+    print("Equivalent Q2 Score: 5.00")
     
 q2 = float(input("Enter the tentative grade for Q2: "))
 Q2 = (q1 + (2 * q2)) / 3
@@ -98,27 +98,27 @@ elif 4.01 < Q2 <= 5.00:
 
 a_q3 = float(input("Enter your Q3 assessment score: "))
 if 100 >= a_q3 >= 96:
-    print("Equivalent Q3 Assessment Score: 1.00")
+    print("Equivalent Q3 Score: 1.00")
 elif 95.99 >= a_q3 >= 90:
-    print("Equivalent Q3 Assessment Score: 1.25")
+    print("Equivalent Q3 Score: 1.25")
 elif 89.99 >= a_q3 >= 84:
-    print("Equivalent Q3 Assessment Score: 1.50")
+    print("Equivalent Q3 Score: 1.50")
 elif 83.99 >= a_q3 >= 78:
-    print("Equivalent Q3 Assessment Score: 1.75")
+    print("Equivalent Q3 Score: 1.75")
 elif 77.99 >= a_q3 >= 72:
-    print("Equivalent Q3 Assessment Score: 2.00")
+    print("Equivalent Q3 Score: 2.00")
 elif 71.99 >= a_q3 >= 66:
-    print("Equivalent Q3 Assessment Score: 2.25")
+    print("Equivalent Q3 Score: 2.25")
 elif 65.99 >= a_q3 >= 60:
-    print("Equivalent Q3 Assessment Score: 2.50")
+    print("Equivalent Q3 Score: 2.50")
 elif 59.99 >= a_q3 >= 55:
-    print("Equivalent Q3 Assessment Score: 2.75")
+    print("Equivalent Q3 Score: 2.75")
 elif 54.99 >= a_q3 >= 50:
-    print("Equivalent Q3 Assessment Score: 3.00")
+    print("Equivalent Q3 Score: 3.00")
 elif 49.99 >= a_q3 >= 40:
-    print("Equivalent Q3 Assessment Score: 4.00")
+    print("Equivalent Q3 Score: 4.00")
 elif 39.99 >= a_q3:
-    print("Equivalent Q3 Assessment Score: 5.00")
+    print("Equivalent Q3 Score: 5.00")
 
 q3 = float(input("Enter the tentative grade for Q3: "))
 Q3 = (Q2 + (2 * q3)) /3
@@ -147,27 +147,27 @@ elif 4.01 < Q3 <= 5.00:
     
 a_q4 = float(input("Enter your Q4 assessment score: "))
 if 100 >= a_q4 >= 96:
-    print("Equivalent Q4 Assessment Score: 1.00")
+    print("Equivalent Q4 Score: 1.00")
 elif 95.99 >= a_q4 >= 90:
-    print("Equivalent Q4 Assessment Score: 1.25")
+    print("Equivalent Q4 Score: 1.25")
 elif 89.99 >= a_q4 >= 84:
-    print("Equivalent Q4 Assessment Score: 1.50")
+    print("Equivalent Q4 Score: 1.50")
 elif 83.99 >= a_q4 >= 78:
-    print("Equivalent Q4 Assessment Score: 1.75")
+    print("Equivalent Q4 Score: 1.75")
 elif 77.99 >= a_q4 >= 72:
-    print("Equivalent Q4 Assessment Score: 2.00")
+    print("Equivalent Q4 Score: 2.00")
 elif 71.99 >= a_q4 >= 66:
-    print("Equivalent Q4 Assessment Score: 2.25")
+    print("Equivalent Q4 Score: 2.25")
 elif 65.99 >= a_q4 >= 60:
-    print("Equivalent Q4 Assessment Score: 2.50")
+    print("Equivalent Q4 Score: 2.50")
 elif 59.99 >= a_q4 >= 55:
-    print("Equivalent Q4 Assessment Score: 2.75")
+    print("Equivalent Q4 Score: 2.75")
 elif 54.99 >= a_q4 >= 50:
-    print("Equivalent Q4 Assessment Score: 3.00")
+    print("Equivalent Q4 Score: 3.00")
 elif 49.99 >= a_q4 >= 40:
-    print("Equivalent Q4 Assessment Score: 4.00")
+    print("Equivalent Q4 Score: 4.00")
 elif 39.99 >= a_q4:
-    print("Equivalent Q4 Assessment Score: 5.00")
+    print("Equivalent Q4 Score: 5.00")
 
 q4 = float(input("Enter the tentative grade for Q4: "))
 final_grade = (Q3 + (2 * q4)) / 3 
