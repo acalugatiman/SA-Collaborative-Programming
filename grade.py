@@ -1,3 +1,27 @@
+a = float(input("Enter your assessment score: "))
+
+if 100 >= a >= 96:
+    print("Equivalent Assessment Score: 1.00")
+elif 95.99 >= a >= 90:
+    print("Equivalent Assessment Score: 1.25")
+elif 89.99 >= a >= 84:
+    print("Equivalent Assessment Score: 1.50")
+elif 83.99 >= a >= 78:
+    print("Equivalent Assessment Score: 1.75")
+elif 77.99 >= a >= 72:
+    print("Equivalent Assessment Score: 2.00")
+elif 71.99 >= a >= 66:
+    print("Equivalent Assessment Score: 2.25")
+elif 65.99 >= a >= 60:
+    print("Equivalent Assessment Score: 2.50")
+elif 59.99 >= a >= 55:
+    print("Equivalent Assessment Score: 2.75")
+elif 54.99 >= a >= 50:
+    print("Equivalent Assessment Score: 3.00")
+elif 49.99 >= a >= 40:
+    print("Equivalent Assessment Score: 4.00")
+elif 39.99 >= a:
+    print("Equivalent Assessment Score: 5.00")
 q1 = float(input("Enter the tentative grade for Q1: "))
 q2 = float(input("Enter the tentative grade for Q2: "))
 q3 = float(input("Enter the tentative grade for Q3: "))
